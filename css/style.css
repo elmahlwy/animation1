@@ -1,0 +1,93 @@
+.div1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    
+}
+@keyframes change{
+    0%{
+        left: 0px;
+
+    }
+    100%{
+        left: 1300px;
+    }
+}
+/* ########################### */
+.div2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    left: 1250;
+    animation-play-state: running;
+    animation-timing-function: linear;
+
+    
+}
+@keyframes change{
+    0%{
+        left:  0px;
+
+    }
+    100%{
+        left: 91%;
+    }
+}
+/* ################################## */
+.div3{
+    width: 200px;
+    height: 200px;
+    top: 320px;
+    position: absolute;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes change{
+    0%{
+        left: 90%;
+
+    }
+    100%{
+        left: 1%;
+    }
+}
+/* ############################### */
+
+/* ########################### */
+.div5{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 500px;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    left: 1250px;
+    transform: translate(-50,0);
+   
+    
+}
+@keyframes change{
+    0%{
+        left: 0px;
+
+    }
+    100%{
+        left: 1300px;
+    }
+}
